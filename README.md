@@ -1,4 +1,4 @@
-#Emotion Detector
+##Emotion Detector
 
 An Android application that detects emotions (Happy or Sad) from user-uploaded or camera-captured images. The app provides insights based on the detected emotion and offers professional counseling options for users feeling sad. Built with Firebase Authentication, Google ML Kit, and TensorFlow Lite.
 
