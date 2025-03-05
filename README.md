@@ -40,4 +40,4 @@ An Android application that detects emotions (Happy or Sad) from user-uploaded o
    ```bash
    git clone https://github.com/tomonoafentiko/facial_expression_emotion_detector/tree/master
 
-For more information, [Message me on WhatsApp](https://wa.me/260967167916)
+[For more information, essage me on WhatsApp](https://wa.me/260967167916)
