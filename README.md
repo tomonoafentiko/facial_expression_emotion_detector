@@ -1,9 +1,9 @@
 An Android application that detects emotions (Happy or Sad) from user-uploaded or camera-captured images. The app provides insights based on the detected emotion and offers professional counseling options for users feeling sad. Built with Firebase Authentication, Google ML Kit, and TensorFlow Lite.
 
 FEATURES
--Emotion Detection**: Detects emotions (Happy or Sad) from images using a TensorFlow Lite model.
--Face Detection**: Ensures a face is present in the image before processing.
--Image Capture and Upload**: Users can take a picture using the camera or upload an image from their gallery.
+-**Emotion Detection**: Detects emotions (Happy or Sad) from images using a TensorFlow Lite model.
+-**Face Detection**: Ensures a face is present in the image before processing.
+-**Image Capture and Upload**: Users can take a picture using the camera or upload an image from their gallery.
 
 INSIGHTS AND COUNSELING
 -Displays insights based on the detected emotion.
