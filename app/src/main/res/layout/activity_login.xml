@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/background_image">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN PAGE"
+        android:textColor="#FFFFFF"
+        android:textSize="44sp"
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter your credentials."
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter your email"
+        android:fontFamily="@font/font"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter your password"
+        android:fontFamily="@font/font"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#000000"
+        android:fontFamily="@font/font"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- New LinearLayout to group "Forgot Password" and "Verify Email" buttons -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/font"
+            android:backgroundTint="#009688"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/btnVerifyEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verify Email"
+            android:fontFamily="@font/font"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#009688"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not a member?"
+        android:fontFamily="@font/font"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:fontFamily="@font/font"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#000000"
+        android:padding="10dp"/>
+</LinearLayout>

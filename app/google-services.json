@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "97771541868",
+    "project_id": "emotion-detector-2965f",
+    "storage_bucket": "emotion-detector-2965f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97771541868:android:ea25711d77358ef2e6cf49",
+        "android_client_info": {
+          "package_name": "com.example.emotiondetector"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAQhoXCAm3z4NJ2l1F0KPATSkWtjTSetM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

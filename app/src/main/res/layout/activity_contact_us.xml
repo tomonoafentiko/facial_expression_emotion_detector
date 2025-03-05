@@ -1,0 +1,50 @@
+<!-- res/layout/activity_contact_us.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/contact_us"
+    android:padding="16dp"
+    android:gravity="center"> <!-- Center the entire content -->
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/black"
+        android:text="Contact via Email"
+        android:drawableStart="@drawable/ic_email"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/font"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical|center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnWhatsApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/black"
+        android:text="Contact via WhatsApp"
+        android:drawableStart="@drawable/ic_whatsapp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/font"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical|center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/black"
+        android:text="Contact via Facebook"
+        android:drawableStart="@drawable/ic_facebook"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/font"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical|center_horizontal"/>
+
+</LinearLayout>
