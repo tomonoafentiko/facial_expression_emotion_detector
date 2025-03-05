@@ -38,4 +38,4 @@ An Android application that detects emotions (Happy or Sad) from user-uploaded o
 ### Steps to Run the Project
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/tomonoafentiko/emotion_detector/tree/master
+   git clone https://github.com/tomonoafentiko/facial_expression_emotion_detector/tree/master
